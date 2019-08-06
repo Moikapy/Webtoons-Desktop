@@ -1,6 +1,11 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
-
+if (require('electron-squirrel-startup')) return app.quit();
+require('update-electron-app')({
+  repo'Moikapy/Webtoons-Desktop',
+  updateInterval: '1 hour',
+  logger: require('electron-log')
+})
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
