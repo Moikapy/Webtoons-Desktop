@@ -9,232 +9,310 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@electron-forge/async-ora@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.34.tgz#68ce31786dcaa607ebed235db48a557d8e68faec"
-  integrity sha512-gs0RMuqIbGregjr8LnbYRov/5EsPCeWwFzgbB8QWWcvBTHbzkjWCBw2u/8dhQQ7bvH99IlFVSCMfonI0dXAfDA==
+"@electron-forge/async-ora@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/async-ora/-/async-ora-6.0.0-beta.43.tgz#0d015d998660eaf7cb3aa8ff74ae826f1c187bd7"
+  integrity sha512-hfJk07NH4+f5RAgHwhUlnHCiA9WaKufzxiFWAwu053ZqR9A18R9xBVKLrCm3V7vjQHCGrVSoV51OaNMYL4+lVA==
   dependencies:
     colors "^1.2.0"
     debug "^4.1.0"
-    log-symbols "^2.0.0"
+    log-symbols "^3.0.0"
     ora "^3.0.0"
-    pretty-ms "^4.0.0"
+    pretty-ms "^5.0.0"
 
-"@electron-forge/cli@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/cli/-/cli-6.0.0-beta.34.tgz#3148096cc8fe3896be031c112cb4baf3f77c4a07"
-  integrity sha512-I7sM3XqERwNyioq6ZhxPOsJZXnK+73GgLSP0E5+hqgktMbfaamB16VPWXwbd2u4cd2/Ch4nyeP8Z2OGVTnFMoA==
+"@electron-forge/cli@^6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/cli/-/cli-6.0.0-beta.43.tgz#2bfebc034fd8a4b3dbeb2a8cd811685f45b9c3e2"
+  integrity sha512-EhwdHOPloApHojGecSX9lufbWsJANu7Z0AloiRk3EvzbglrCL4yQo4yMom/iDhq0tZk8HNRO6JBpb6J0COUZIg==
   dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.34"
-    "@electron-forge/core" "6.0.0-beta.34"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@electron-forge/core" "6.0.0-beta.43"
     colors "^1.2.0"
     commander "^2.9.0"
     debug "^4.1.0"
-    fs-extra "^7.0.0"
-    inquirer "^6.2.0"
-    semver "^5.3.0"
+    fs-extra "^8.1.0"
+    inquirer "^6.5.0"
+    semver "^6.2.0"
 
-"@electron-forge/core@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/core/-/core-6.0.0-beta.34.tgz#e006088d7b97498efe78a4848166c041d6a75427"
-  integrity sha512-Tn4xkYVQybhVdy+/6jNSbnhcJHf3JK436OpQsyEmDfwakYZWHqhSpQzig3XasU4NdG+LyUsO8b4bQRQ3DQdNHw==
+"@electron-forge/core@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/core/-/core-6.0.0-beta.43.tgz#0ad2d5937366b9147f7c857b422bdc674a51fbc5"
+  integrity sha512-m9VN89l8nFkWtWXm6Pf96vMo4Vdnfa3PIg5LyeCEKMH22BvbuXs6XdIji0hJkUWqukb0jJ9xMq4eg9KKKzVCzw==
   dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.34"
-    "@electron-forge/installer-base" "6.0.0-beta.34"
-    "@electron-forge/installer-deb" "6.0.0-beta.34"
-    "@electron-forge/installer-dmg" "6.0.0-beta.34"
-    "@electron-forge/installer-exe" "6.0.0-beta.34"
-    "@electron-forge/installer-rpm" "6.0.0-beta.34"
-    "@electron-forge/installer-zip" "6.0.0-beta.34"
-    "@electron-forge/maker-base" "6.0.0-beta.34"
-    "@electron-forge/plugin-base" "6.0.0-beta.34"
-    "@electron-forge/publisher-base" "6.0.0-beta.34"
-    "@electron-forge/shared-types" "6.0.0-beta.34"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@electron-forge/installer-base" "6.0.0-beta.43"
+    "@electron-forge/installer-deb" "6.0.0-beta.43"
+    "@electron-forge/installer-dmg" "6.0.0-beta.43"
+    "@electron-forge/installer-exe" "6.0.0-beta.43"
+    "@electron-forge/installer-rpm" "6.0.0-beta.43"
+    "@electron-forge/installer-zip" "6.0.0-beta.43"
+    "@electron-forge/maker-base" "6.0.0-beta.43"
+    "@electron-forge/plugin-base" "6.0.0-beta.43"
+    "@electron-forge/publisher-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
+    "@electron-forge/template-webpack" "6.0.0-beta.43"
+    "@electron/get" "^1.3.1"
     colors "^1.2.0"
     cross-spawn-promise "^0.10.1"
     debug "^4.1.0"
-    electron-packager "^13.0.0"
-    electron-rebuild "^1.6.0"
-    fs-extra "^7.0.0"
-    glob "^7.1.1"
-    lodash.merge "^4.6.0"
-    lodash.template "^4.4.0"
-    log-symbols "^2.0.0"
-    node-fetch "^2.0.0"
+    electron-packager "^14.0.0"
+    electron-rebuild "^1.8.5"
+    find-up "^4.1.0"
+    fs-extra "^8.1.0"
+    glob "^7.1.4"
+    lodash.merge "^4.6.2"
+    lodash.template "^4.5.0"
+    log-symbols "^3.0.0"
+    node-fetch "^2.6.0"
     nugget "^2.0.1"
-    pify "^4.0.0"
     resolve-package "^1.0.1"
-    semver "^5.3.0"
-    source-map-support "^0.5.4"
-    sudo-prompt "^8.0.0"
-    username "^4.0.0"
+    semver "^6.2.0"
+    source-map-support "^0.5.12"
+    sudo-prompt "^9.0.0"
+    username "^5.1.0"
     yarn-or-npm "^2.0.2"
 
-"@electron-forge/installer-base@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-base/-/installer-base-6.0.0-beta.34.tgz#fdd3a13607eefb59e4391c09c228fe2d804b8291"
-  integrity sha512-LAblvKIiyewJo8sNpLuXCbrMSMpEJZK6yD/CSI2nE5TvpLXwFM/Tp6emmUiLpVi2qo7+kLCf/WJx4sTcDlVVKg==
+"@electron-forge/installer-base@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-base/-/installer-base-6.0.0-beta.43.tgz#6b618c5623bc403e6b605a5737a48dbd6392e5f7"
+  integrity sha512-RAopbmOHjzpxb0iTB1QIsGKnb3NC4Rj7nzD0wkqD1QTOVNAe9tLQm4uXDHps6LTIhoUAyGQlVpmENqAKM0Zsfw==
   dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.34"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
 
-"@electron-forge/installer-darwin@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-darwin/-/installer-darwin-6.0.0-beta.34.tgz#f5e8ab378bdda8ed5d532b80fa2933fb7f0b3ca8"
-  integrity sha512-QIFMfNW0F/XJU0Y7cg+gOOMNverymuG7o9xdcQPXPQ6Mu4If8EkNgUtXtrOUvIJoC7wpfpipHDGGYvursT5VyQ==
+"@electron-forge/installer-darwin@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-darwin/-/installer-darwin-6.0.0-beta.43.tgz#2e6b6e40363046dfdcf9496c3c6365420b81d087"
+  integrity sha512-PWOI3IhbwGu4ygOO1V4W8WlKFNtzXkhJcSayeZKOeeSx3Mr9cgXnivhhm7aYJttUJTa5/GWIkZ3kf79nTwRiWA==
   dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.34"
-    "@electron-forge/installer-base" "6.0.0-beta.34"
-    fs-extra "^7.0.0"
-    pify "^4.0.0"
-    sudo-prompt "^8.0.0"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@electron-forge/installer-base" "6.0.0-beta.43"
+    fs-extra "^8.1.0"
+    sudo-prompt "^9.0.0"
 
-"@electron-forge/installer-deb@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-deb/-/installer-deb-6.0.0-beta.34.tgz#99ce242841c627bf9ba973c908428cd97c9a8b5e"
-  integrity sha512-YsAFAgsuY6fTi4n8EFmiiG+btf2/RKaEkNS4Yz2UaFBbAnKzHsNTpqQtKG8q7Xz5z6NZbqNklqSYY4ljVpjgow==
+"@electron-forge/installer-deb@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-deb/-/installer-deb-6.0.0-beta.43.tgz#1082b7dcab0e70c1046425a0cfd66335881c5067"
+  integrity sha512-s8GbeKKe8riS6uU/JxXj7qPKqgI1iXoydJZHGDQ7qXiHEc3boLEkhskfMejc6JOAdXR35Qa5LaD7UgBHQseA2w==
   dependencies:
-    "@electron-forge/installer-linux" "6.0.0-beta.34"
+    "@electron-forge/installer-linux" "6.0.0-beta.43"
 
-"@electron-forge/installer-dmg@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-dmg/-/installer-dmg-6.0.0-beta.34.tgz#c7fb265030b160472f944da01d36dba9fcadd916"
-  integrity sha512-oINnOUS72VUmAmotZKi/UqllndhBaGC+g/IduMDhpafiB8wef0bQsRT9hYkIIGw77hPT6xtGaTFeAxR888L4kg==
+"@electron-forge/installer-dmg@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-dmg/-/installer-dmg-6.0.0-beta.43.tgz#adcfee78da441858fa41440fd872a220adc5775d"
+  integrity sha512-diadw3tf0qbdvKLJuBpPkJui95x/I8V733TBVgjnkPbHxSllaBWZtI4LPqx5GFVTyd2ZYQp+c6Lh5nqsuHYHxg==
   dependencies:
-    "@electron-forge/installer-darwin" "6.0.0-beta.34"
+    "@electron-forge/installer-darwin" "6.0.0-beta.43"
     cross-spawn-promise "^0.10.1"
     debug "^4.1.0"
-    fs-extra "^7.0.0"
+    fs-extra "^8.1.0"
 
-"@electron-forge/installer-exe@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-exe/-/installer-exe-6.0.0-beta.34.tgz#ecc0485c26da94bc10321c892314b5753455089d"
-  integrity sha512-x+RNl2VMHzuZDrCnxmcen3yLxpPXbjNexFNzyzH455+AINkaE+hnZumlJhem0slftQsD5/7pZRzPdRa9SWbPvg==
+"@electron-forge/installer-exe@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-exe/-/installer-exe-6.0.0-beta.43.tgz#b24a61f6c6b17546420b95210bed09a0d70b68b0"
+  integrity sha512-PETHsKPmu4XxsCcLKkXsRCCz2S8dpClDRfMIsXbFTGRWNIP89jgluTG4KLllpgzhU+APpgO0kSIMbIaPsTUxbQ==
   dependencies:
-    "@electron-forge/installer-base" "6.0.0-beta.34"
-    opn "^5.0.0"
+    "@electron-forge/installer-base" "6.0.0-beta.43"
+    open "^6.4.0"
 
-"@electron-forge/installer-linux@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-linux/-/installer-linux-6.0.0-beta.34.tgz#3abb0873c5e250c2b14dbec18d6409af2133d7a4"
-  integrity sha512-DTPIpGlCgw7Ci4gPP5HrrENPt2rHwUFD48heNlousAnHyH3SfqkRCa8zdWL4xPQAfhCWZsO2iifm/2elUfL9Ew==
+"@electron-forge/installer-linux@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-linux/-/installer-linux-6.0.0-beta.43.tgz#efd377ac8320316ee3f382ce5fd149f52b3fef28"
+  integrity sha512-euBacSIF7Vva9KR9BwCIa0znZ+pH1erfMDXgECgnA4dMOqvL5HldiZYG5defrtYpwu4o/iD5LTenKqCLHeJF7A==
   dependencies:
-    "@electron-forge/installer-base" "6.0.0-beta.34"
-    pify "^4.0.0"
-    sudo-prompt "^8.0.0"
+    "@electron-forge/installer-base" "6.0.0-beta.43"
+    sudo-prompt "^9.0.0"
 
-"@electron-forge/installer-rpm@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-rpm/-/installer-rpm-6.0.0-beta.34.tgz#9576c9c5bcd4f53b2b86ab9d04a9bd2f375abfed"
-  integrity sha512-AO9np5Ut5ut6nsUtug0mh9e9esh9JZraSQQ2vw/TwsBxPvE+haBmHuOdCraZ0w5Nm0MDSElSGTUEilVGANeKQA==
+"@electron-forge/installer-rpm@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-rpm/-/installer-rpm-6.0.0-beta.43.tgz#a5d8262cb044046de8747c092d31e1329edcdf69"
+  integrity sha512-akoLUQAXemD2OabvJWOMM6n8TNxvtxdV27EvOI6gxmN4wCJf2va5svZckzwmGB9AiyCu0u0Zap0TRVBDOmohDg==
   dependencies:
-    "@electron-forge/installer-linux" "6.0.0-beta.34"
+    "@electron-forge/installer-linux" "6.0.0-beta.43"
 
-"@electron-forge/installer-zip@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/installer-zip/-/installer-zip-6.0.0-beta.34.tgz#51ccd0577ad55b619b0f1a927ff0df0b9d3dca1e"
-  integrity sha512-UwI91T6PggAVQ7oMBSCi755aQrog4gJOjH9oBe7hnxU1fZslCVhUfw7DCpTFujSi48VTOgZ7dQcgOkZvbG9uCA==
+"@electron-forge/installer-zip@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/installer-zip/-/installer-zip-6.0.0-beta.43.tgz#30b0371672900a91af1551829c5d50afe4adbb18"
+  integrity sha512-NZ/lscK1FsYyr5oH/1vOUa029lUocWUj5V+Xw9PEV/tkAv4dotAtk2XnXLAkPqdP0iaUD3Z6INV86eW/sLJFgQ==
   dependencies:
-    "@electron-forge/installer-darwin" "6.0.0-beta.34"
+    "@electron-forge/installer-darwin" "6.0.0-beta.43"
     cross-spawn-promise "^0.10.1"
-    fs-extra "^7.0.0"
+    fs-extra "^8.1.0"
 
-"@electron-forge/maker-base@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.0.0-beta.34.tgz#3110fe7106e679f6661269314d125be413ed9f2f"
-  integrity sha512-uBIrhQd8THRHQt6yRd/5msSK1fNYQQQn1V6SYV//388U3Emk3YeKD5ICZUoY8dR7RCDEQgRCEwD9wYQxJkfZwQ==
+"@electron-forge/maker-base@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-base/-/maker-base-6.0.0-beta.43.tgz#73c0b9ee3eef7244805defb495d9f93b254f1bd2"
+  integrity sha512-JlUGs4jMMv+o3v6zJ9SyWRHe7IyM4RDGx7gNOObqqLSK+0r4FPWVrHJKjV4/P/Xo5G40WwjfwVmmpInHAwdAdg==
   dependencies:
-    "@electron-forge/shared-types" "6.0.0-beta.34"
-    fs-extra "^7.0.0"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
+    fs-extra "^8.1.0"
 
-"@electron-forge/maker-deb@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.34.tgz#19192fb596d0bcc0071d88b2a81eb21d74baef72"
-  integrity sha512-dfrbHNghG6bvq/fgcjEmbdnQ9mwvUe14PCxN9nmPOx3iMuHKr5OqXgv3QOpzEWr0arkdgFflkPqAoNzutVdaIw==
+"@electron-forge/maker-deb@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-deb/-/maker-deb-6.0.0-beta.43.tgz#62e4b7ad3c165d13b7b9e794e24f61b2dff134a1"
+  integrity sha512-4omWF71gCtHfzqUBMd9F9+Jj0A8M4nahR5avqusxpZ1Qm2Z40dbyZe6XBfH53IBGwFKnkdxegf2usn98lE8slg==
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.34"
-    "@electron-forge/shared-types" "6.0.0-beta.34"
+    "@electron-forge/maker-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
   optionalDependencies:
-    electron-installer-debian "^1.1.0"
+    electron-installer-debian "^2.0.0"
 
-"@electron-forge/maker-rpm@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.0.0-beta.34.tgz#f0143125d217e1ab36879490a8cb29a6edc058e9"
-  integrity sha512-8DhOX/Bn4Ku899KGmVWNGWegNtocDIPtQfAL3M0sP277B62Pjx6EZx82v9hm5jGAUdiNhEE+25O2bdoLajEOjw==
+"@electron-forge/maker-rpm@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-rpm/-/maker-rpm-6.0.0-beta.43.tgz#1665770ce149db21fe7ab02b2a3c4a024e2184b4"
+  integrity sha512-ovzsv/cVOu4OVR7yAEIY0Plo+Mls/X4g0szaHGxbjNFUGjo0qKQu7+sjuBwY1etD6Hn0yCDckSkBcvAe2/slMg==
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.34"
-    "@electron-forge/shared-types" "6.0.0-beta.34"
+    "@electron-forge/maker-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
   optionalDependencies:
-    electron-installer-redhat "^1.0.0"
+    electron-installer-redhat "^2.0.0"
 
-"@electron-forge/maker-squirrel@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.34.tgz#3d23951e9553edc22b1b927ff0ff055694d7502b"
-  integrity sha512-7j70q2yGB0X65ToWhLH+OxBMunSW7DaNVRHGV5Ef/fXDiKIeRNcrBD4l/FxtakhEdhHMLjEyAdSA2Is7iTYkzg==
+"@electron-forge/maker-squirrel@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-squirrel/-/maker-squirrel-6.0.0-beta.43.tgz#a272ec7ee0fefb04e65376d7ced8f65633ec9ba2"
+  integrity sha512-lsC6S5UA7ZTr4iJzsgIm/2X6n+/WMtq1Cg9b53AicsGp1qOzOqI1yWZ+IAE4oRog+BXUhgrvTqbqYMli/klGDA==
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.34"
-    "@electron-forge/shared-types" "6.0.0-beta.34"
-    fs-extra "^7.0.0"
+    "@electron-forge/maker-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
+    fs-extra "^8.1.0"
   optionalDependencies:
     electron-winstaller "^3.0.4"
 
-"@electron-forge/maker-zip@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/maker-zip/-/maker-zip-6.0.0-beta.34.tgz#64389bbe6582599168328030725b20c064c7b03a"
-  integrity sha512-kDMVcTsMlRN7tSQJYX3lApt08p63zHfkuIcPHBpV9fEOJABZK5iHhwNvx3U3x+Syp2ABRDEpGksjCvmBkyp5fw==
+"@electron-forge/maker-zip@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/maker-zip/-/maker-zip-6.0.0-beta.43.tgz#3fb3c6e265987e728b43b54899a1e0f6e4825ecd"
+  integrity sha512-n1GuOWRc9JUMRZjyViIreUim2Xsvvv6yUOlBqz31as+mc+TxKp4TRugpfB55T9AjDLsOWwklIKC0LmJRe17dKw==
   dependencies:
-    "@electron-forge/maker-base" "6.0.0-beta.34"
-    "@electron-forge/shared-types" "6.0.0-beta.34"
+    "@electron-forge/maker-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
     cross-zip "^2.1.5"
-    fs-extra "^7.0.0"
-    pify "^4.0.0"
+    fs-extra "^8.1.0"
 
-"@electron-forge/plugin-base@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-6.0.0-beta.34.tgz#ce5c54194054c5b1a4234b80f8826918fec3247b"
-  integrity sha512-+mlm7PjwB9ZLzrucDDABPw1DB+efg3MZG3Szvt1T9fr10NdDpZQebBGWjIymoY9ALtFrapv0tdOmjfEDAOm1Zw==
+"@electron-forge/plugin-base@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/plugin-base/-/plugin-base-6.0.0-beta.43.tgz#7a5181fe245a4387ad609a725a01bb6666d959a5"
+  integrity sha512-bdhJ9xeoSqrsA0nL3LawmbwcsRtbWVIL3oJgpEYBXIloP9uRoC/nGEzJpFAJp3MQ9LYcJ0yqBe/lHYZNfMM7cQ==
   dependencies:
-    "@electron-forge/shared-types" "6.0.0-beta.34"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
 
-"@electron-forge/publisher-base@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/publisher-base/-/publisher-base-6.0.0-beta.34.tgz#1cfb46f549e6a1fa591f435fceaaaae3d5ce6420"
-  integrity sha512-XgdQz7p+pp7Lg9OqQxgd+YAVHCBu/BpJOFcu28tHUxMwKoSMgidVDsoFx9v+JdCyzk3/pRzrmvsDwZNhYXtszA==
+"@electron-forge/publisher-base@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/publisher-base/-/publisher-base-6.0.0-beta.43.tgz#4d084f7cf9367637073d7cca9f2f831e56c6a763"
+  integrity sha512-nF+KnDuKcpQ3CFrfLms6WW1dJn/lzyKk+w/J7EtGIUlt80lUSE7bnR8hUH7x95XvNaKgYhT4I8DqcW9o0eXeMw==
 
-"@electron-forge/shared-types@6.0.0-beta.34":
-  version "6.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.34.tgz#b3861b004633deadf34539210aef975ede2df9d4"
-  integrity sha512-8KOgoG08nm8Fx2sK+QznsMNwlXcQ5OB+mZZpkn7pRuIQIUGQ+xZ+r90vJ3uKiZQSzHyQXDe1LkldCNL6Hgk0Pw==
+"@electron-forge/publisher-github@^6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/publisher-github/-/publisher-github-6.0.0-beta.43.tgz#51078281b9365e19d87b5bc37a818314ed5f5165"
+  integrity sha512-7Kqf55lnVMI2dVWnu92j9LS5Y2wITnwHl7z0A25ZVrVqryZSlYKJRJZzglItlZoLrRnLKbiT6TP/s0jEOvg67g==
   dependencies:
-    "@electron-forge/async-ora" "6.0.0-beta.34"
-    "@types/electron-packager" "^13.0.0"
-    electron-rebuild "^1.6.0"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@electron-forge/publisher-base" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
+    "@octokit/rest" "^16.28.3"
+    fs-extra "^8.1.0"
+    lodash.merge "^4.6.2"
+    mime-types "^2.1.24"
+
+"@electron-forge/shared-types@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/shared-types/-/shared-types-6.0.0-beta.43.tgz#45eb41170599a41c1441fb6848ce591f42addeb6"
+  integrity sha512-KEHn44zeSzZMYvfhvxLgeC+PTTGr70BTwpV08ektDmDPi33K4uxk4nSdsjY03YoVjv0odfvbz6jT5uvf3v5g4w==
+  dependencies:
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@types/electron-packager" "^14.0.0"
+    electron-rebuild "^1.8.5"
     ora "^3.0.0"
 
-"@types/electron-packager@^13.0.0":
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/@types/electron-packager/-/electron-packager-13.0.1.tgz#55ec6fdfac1c2db86adcbfbc8e486b0ff8c2a8ee"
-  integrity sha512-K9CCdarh7JdWvIIWM+xCWoROYXgcRFmX3OgjgwaFIFOb87bMTvtQVLyVi8LO0NroURadaae5L1AaK1BxKhytoA==
+"@electron-forge/template-webpack@6.0.0-beta.43":
+  version "6.0.0-beta.43"
+  resolved "https://registry.yarnpkg.com/@electron-forge/template-webpack/-/template-webpack-6.0.0-beta.43.tgz#4fda3e151282eda2bc0455faef1b0feb011a6167"
+  integrity sha512-ktg110Pue2n+CHoF0FDdqX58ZhwOi/skHsQnyOo+BflxMDbKsHtr/jsLrvwvtt8BYOg4yNiPMJZ4GYp5U3/etA==
   dependencies:
-    "@types/node" "*"
+    "@electron-forge/async-ora" "6.0.0-beta.43"
+    "@electron-forge/shared-types" "6.0.0-beta.43"
+    fs-extra "^8.1.0"
 
-"@types/events@*":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
-  integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
-
-"@types/glob@*":
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.1.tgz#aa59a1c6e3fbc421e07ccd31a944c30eba521575"
-  integrity sha512-1Bh06cbWJUHMC97acuD6UMG29nMt0Aqz1vF3guLfG+kHHJhy3AyohZFFxYk2f7Q1SQIrNwvncxAE0N/9s70F2w==
+"@electron/get@^1.3.0", "@electron/get@^1.3.1":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.4.0.tgz#e405e0f37e5f4349e3ba3d3a21803ee5ca140fa9"
+  integrity sha512-FN20Sj0shfHsInfYWQ2ERG/UgyTMNK92WBwl3k9qcIOCZ5Kfz+PwoO29x7lEnEEDONSwlEvHEUs0dJqfqrpEuA==
   dependencies:
-    "@types/events" "*"
-    "@types/minimatch" "*"
-    "@types/node" "*"
+    debug "^4.1.1"
+    env-paths "^2.2.0"
+    fs-extra "^8.1.0"
+    got "^9.6.0"
+    sumchecker "^3.0.0"
 
-"@types/minimatch@*":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
-  integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
+"@octokit/endpoint@^5.1.0":
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/@octokit/endpoint/-/endpoint-5.3.2.tgz#2deda2d869cac9ba7f370287d55667be2a808d4b"
+  integrity sha512-gRjteEM9I6f4D8vtwU2iGUTn9RX/AJ0SVXiqBUEuYEWVGGAVjSXdT0oNmghH5lvQNWs8mwt6ZaultuG6yXivNw==
+  dependencies:
+    deepmerge "4.0.0"
+    is-plain-object "^3.0.0"
+    universal-user-agent "^3.0.0"
+    url-template "^2.0.8"
+
+"@octokit/request-error@^1.0.1", "@octokit/request-error@^1.0.2":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@octokit/request-error/-/request-error-1.0.4.tgz#15e1dc22123ba4a9a4391914d80ec1e5303a23be"
+  integrity sha512-L4JaJDXn8SGT+5G0uX79rZLv0MNJmfGa4vb4vy1NnpjSnWDLJRy6m90udGwvMmavwsStgbv2QNkPzzTCMmL+ig==
+  dependencies:
+    deprecation "^2.0.0"
+    once "^1.4.0"
+
+"@octokit/request@^5.0.0":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@octokit/request/-/request-5.0.2.tgz#59a920451f24811c016ddc507adcc41aafb2dca5"
+  integrity sha512-z1BQr43g4kOL4ZrIVBMHwi68Yg9VbkRUyuAgqCp1rU3vbYa69+2gIld/+gHclw15bJWQnhqqyEb7h5a5EqgZ0A==
+  dependencies:
+    "@octokit/endpoint" "^5.1.0"
+    "@octokit/request-error" "^1.0.1"
+    deprecation "^2.0.0"
+    is-plain-object "^3.0.0"
+    node-fetch "^2.3.0"
+    once "^1.4.0"
+    universal-user-agent "^3.0.0"
+
+"@octokit/rest@^16.28.3":
+  version "16.28.7"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.28.7.tgz#a2c2db5b318da84144beba82d19c1a9dbdb1a1fa"
+  integrity sha512-cznFSLEhh22XD3XeqJw51OLSfyL2fcFKUO+v2Ep9MTAFfFLS1cK1Zwd1yEgQJmJoDnj4/vv3+fGGZweG+xsbIA==
+  dependencies:
+    "@octokit/request" "^5.0.0"
+    "@octokit/request-error" "^1.0.2"
+    atob-lite "^2.0.0"
+    before-after-hook "^2.0.0"
+    btoa-lite "^1.0.0"
+    deprecation "^2.0.0"
+    lodash.get "^4.4.2"
+    lodash.set "^4.3.2"
+    lodash.uniq "^4.5.0"
+    octokit-pagination-methods "^1.1.0"
+    once "^1.4.0"
+    universal-user-agent "^3.0.0"
+    url-template "^2.0.8"
+
+"@sindresorhus/is@^0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
+  integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
+
+"@szmarczak/http-timer@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-1.1.2.tgz#b1665e2c461a2cd92f4c1bbf50d5454de0d4b421"
+  integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
+  dependencies:
+    defer-to-connect "^1.0.1"
+
+"@types/electron-packager@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@types/electron-packager/-/electron-packager-14.0.0.tgz#f6dab1542fe02a3dd235d9bf66c8cb365f123902"
+  integrity sha512-n47/AbT4DEYPyXtES2myPyKCxVE3hICAB3MnpoVg+Ba8CLBGOpUUsNJ5fyLhfKt5N06sT9nTk4eAc+rtYVpvTQ==
+  dependencies:
+    "@electron/get" "^1.3.1"
+    "@types/node" "*"
+    electron-notarize "^0.1.1"
+    electron-osx-sign "^0.4.11"
 
 "@types/node@*":
   version "12.6.9"
@@ -320,6 +398,19 @@ asar@^1.0.0:
     pify "^4.0.1"
     tmp-promise "^1.0.5"
 
+asar@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/asar/-/asar-2.0.1.tgz#8518a1c62c238109c15a5f742213e83a09b9fd38"
+  integrity sha512-Vo9yTuUtyFahkVMFaI6uMuX6N7k5DWa6a/8+7ov0/f8Lq9TVR0tUjzSzxQSxT1Y+RJIZgnP7BVb6Uhi+9cjxqA==
+  dependencies:
+    chromium-pickle-js "^0.2.0"
+    commander "^2.20.0"
+    cuint "^0.2.2"
+    glob "^7.1.3"
+    minimatch "^3.0.4"
+    mkdirp "^0.5.1"
+    tmp-promise "^1.0.5"
+
 asn1@~0.2.3:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/asn1/-/asn1-0.2.4.tgz#8d2475dfab553bb33e77b54e59e880bb8ce23136"
@@ -336,6 +427,11 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
+
+atob-lite@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-2.0.0.tgz#0fef5ad46f1bd7a8502c65727f0367d5ee43d696"
+  integrity sha1-D+9a1G8b16hQLGVyfwNn1e5D1pY=
 
 author-regex@^1.0.0:
   version "1.0.0"
@@ -369,6 +465,11 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
+before-after-hook@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.1.0.tgz#b6c03487f44e24200dd30ca5e6a1979c5d2fb635"
+  integrity sha512-IWIbu7pMqyw3EAJHzzHbWa85b6oud/yfKYg5rqB5hNE8CeMi3nX+2C2sj0HswfblST86hpVEOAb9x34NZd6P7A==
+
 bluebird@^3.1.1, bluebird@^3.5.0:
   version "3.5.5"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.5.tgz#a8d0afd73251effbbd5fe384a77d73003c17a71f"
@@ -381,6 +482,11 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+btoa-lite@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/btoa-lite/-/btoa-lite-1.0.0.tgz#337766da15801210fdd956c22e9c6891ab9d0337"
+  integrity sha1-M3dm2hWAEhD92VbCLpxokaudAzc=
 
 buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
@@ -404,6 +510,19 @@ buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+
+cacheable-request@^6.0.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/cacheable-request/-/cacheable-request-6.1.0.tgz#20ffb8bd162ba4be11e9567d823db651052ca912"
+  integrity sha512-Oj3cAGPCqOZX7Rz64Uny2GYAZNliQSqfbePrgAQ1wKAihYmCUnraBtJtKcGR4xz7wF+LoJC+ssFZvv5BgF9Igg==
+  dependencies:
+    clone-response "^1.0.2"
+    get-stream "^5.1.0"
+    http-cache-semantics "^4.0.0"
+    keyv "^3.0.0"
+    lowercase-keys "^2.0.0"
+    normalize-url "^4.1.0"
+    responselike "^1.0.2"
 
 camelcase-keys@^2.0.0:
   version "2.1.0"
@@ -478,6 +597,13 @@ cliui@^5.0.0:
     strip-ansi "^5.2.0"
     wrap-ansi "^5.1.0"
 
+clone-response@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/clone-response/-/clone-response-1.0.2.tgz#d1dc973920314df67fbeb94223b4ee350239e96b"
+  integrity sha1-0dyXOSAxTfZ/vrlCI7TuNQI56Ws=
+  dependencies:
+    mimic-response "^1.0.0"
+
 clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
@@ -512,7 +638,7 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.19.0, commander@^2.9.0:
+commander@^2.19.0, commander@^2.20.0, commander@^2.9.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
@@ -626,10 +752,22 @@ decamelize@^1.1.2, decamelize@^1.2.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
+decompress-response@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/decompress-response/-/decompress-response-3.3.0.tgz#80a4dd323748384bfa248083622aedec982adff3"
+  integrity sha1-gKTdMjdIOEv6JICDYirt7Jgq3/M=
+  dependencies:
+    mimic-response "^1.0.0"
+
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
+
+deepmerge@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.0.0.tgz#3e3110ca29205f120d7cb064960a39c3d2087c09"
+  integrity sha512-YZ1rOP5+kHor4hMAH+HRQnBQHg+wvS1un1hAOuIcxcBy0hzcUf6Jg2a1w65kpoOUnurOfZbERwjI1TfZxNjcww==
 
 defaults@^1.0.3:
   version "1.0.3"
@@ -637,6 +775,11 @@ defaults@^1.0.3:
   integrity sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=
   dependencies:
     clone "^1.0.2"
+
+defer-to-connect@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/defer-to-connect/-/defer-to-connect-1.0.2.tgz#4bae758a314b034ae33902b5aac25a8dd6a8633e"
+  integrity sha512-k09hcQcTDY+cwgiwa6PYKLm3jlagNzQ+RSvhjzESOGOx+MNOuXkxTfEvPrO1IOQ81tArCFYQgi631clB70RpQw==
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -648,10 +791,20 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
+deprecation@^2.0.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/deprecation/-/deprecation-2.3.1.tgz#6368cbdb40abf3373b525ac87e4a260c3a700919"
+  integrity sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ==
+
 detect-libc@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
+
+duplexer3@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
+  integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -661,7 +814,7 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-electron-download@^4.1.0, electron-download@^4.1.1:
+electron-download@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-4.1.1.tgz#02e69556705cc456e520f9e035556ed5a015ebe8"
   integrity sha512-FjEWG9Jb/ppK/2zToP+U5dds114fM1ZOJqMAR4aXXL5CvyPE9fiqBK/9YcwC9poIFQTEJk/EM/zyRwziziRZrg==
@@ -676,56 +829,63 @@ electron-download@^4.1.0, electron-download@^4.1.1:
     semver "^5.4.1"
     sumchecker "^2.0.2"
 
-electron-installer-common@^0.6.2:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/electron-installer-common/-/electron-installer-common-0.6.3.tgz#d17f5062890acaef0c7dd7972aae3a746bca921f"
-  integrity sha512-ylecrLzz2Qmfv9QgFBoQAcB7i51ROUXguA0EExo70LVeJznDi94vCwVSoKotC7BslmUH6Iz1vYZOyqMon8PhcA==
+electron-installer-common@^0.7.1:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/electron-installer-common/-/electron-installer-common-0.7.3.tgz#95beedc4c6abd287a2f3ef60c545abdf804d90a0"
+  integrity sha512-l4chYFTWr6uWODKYUXeC+Z4tqGa3b8e+Y2WUBf3F7Ruv6yYzZ+Ccic65oXreeotx09B7sUx1KTuwXRsRJHKlMw==
   dependencies:
-    asar "^1.0.0"
+    asar "^2.0.1"
     cross-spawn-promise "^0.10.1"
     debug "^4.1.1"
-    fs-extra "^7.0.1"
-    glob "^7.1.3"
-    glob-promise "^3.4.0"
+    fs-extra "^8.0.1"
+    glob "^7.1.4"
     lodash "^4.17.11"
     parse-author "^2.0.0"
     semver "^6.0.0"
-    tmp-promise "^1.0.5"
+    tmp-promise "^2.0.1"
 
-electron-installer-debian@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/electron-installer-debian/-/electron-installer-debian-1.2.0.tgz#1cb3c457cd4fc5e5adaae4d587170eca3a85a219"
-  integrity sha512-gowfDlBY4NPZ6dMLsoSJzEeXlEa650NAjvtnYk6/Ikq9tFtS7xCs+Oyk91gNGDbFczA8QAelmR4KX4hV/eebKQ==
+electron-installer-debian@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/electron-installer-debian/-/electron-installer-debian-2.0.0.tgz#295431530e06403e71154fc3bd2d74a0ada1c4a3"
+  integrity sha512-FNdoIzCFhaHiOoLOacWvoUHV80AV/+iH6KNYNiYlB8LmqQKNTPKXNVfZHet/7yDZi2Md4DxRy4gsokEPvV8QSg==
   dependencies:
     debug "^4.1.1"
-    electron-installer-common "^0.6.2"
-    fs-extra "^7.0.1"
+    electron-installer-common "^0.7.1"
+    fs-extra "^8.0.1"
     get-folder-size "^2.0.1"
     lodash "^4.17.4"
-    pify "^4.0.1"
     word-wrap "^1.2.3"
     yargs "^13.2.2"
 
-electron-installer-redhat@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/electron-installer-redhat/-/electron-installer-redhat-1.1.0.tgz#d8f20839fdb567946b33372d78101ff6d60aacb5"
-  integrity sha512-wea1fZ1VOEZBJ5Y+/D2So04PnhfwoEPFW4rD9UlP/ODIggkDHY6ZLsXj0SRPGKGJqmTzP16Taoj7YNsmxYEL2g==
+electron-installer-redhat@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/electron-installer-redhat/-/electron-installer-redhat-2.0.0.tgz#a83563f6267aed64a619592cd0a6305ffa97ba6b"
+  integrity sha512-kf7+/t8XIp1I6LIV9v6K38rBHzmY6bUr3TunJZKdlIKQ7j6wyjjpgbpxSBcg3S7pgzq1kkgCYZvpr8CsLFVivw==
   dependencies:
     debug "^4.1.1"
-    electron-installer-common "^0.6.2"
-    fs-extra "^7.0.1"
+    electron-installer-common "^0.7.1"
+    fs-extra "^8.0.1"
     lodash "^4.17.4"
-    nodeify "^1.0.1"
     word-wrap "^1.2.3"
     yargs "^13.2.2"
 
-electron-notarize@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/electron-notarize/-/electron-notarize-0.0.5.tgz#d9e95c763a6af853ce16d31dde72d73cb25b0703"
-  integrity sha512-YzrqZ6RDQ7Wt2RWlxzRoQUuxnTeXrfp7laH7XKcmQqrZ6GaAr50DMPvFMpqDKdrZSHSbcgZgB7ktIQbjvITmCQ==
+electron-is-dev@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/electron-is-dev/-/electron-is-dev-0.3.0.tgz#14e6fda5c68e9e4ecbeff9ccf037cbd7c05c5afe"
+  integrity sha1-FOb9pcaOnk7L7/nM8DfL18BcWv4=
+
+electron-log@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/electron-log/-/electron-log-3.0.7.tgz#bfdba9489c84b1301d6067028fce2f4cb2f89d7f"
+  integrity sha512-W5pjj9DtXjSHaJWH1VWSgBweJxeZ6OEBAIOzSbu6coKFYxXPGRyg9FAILYbnDt0iJT8r6YQqjEnYgmGJn/LoAg==
+
+electron-notarize@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/electron-notarize/-/electron-notarize-0.1.1.tgz#c3563d70c5e7b3315f44e8495b30050a8c408b91"
+  integrity sha512-TpKfJcz4LXl5jiGvZTs5fbEx+wUFXV5u8voeG5WCHWfY/cdgdD8lDZIZRqLVOtR3VO+drgJ9aiSHIO9TYn/fKg==
   dependencies:
-    debug "^4.1.0"
-    fs-extra "^7.0.0"
+    debug "^4.1.1"
+    fs-extra "^8.0.1"
 
 electron-osx-sign@^0.4.11:
   version "0.4.12"
@@ -739,30 +899,30 @@ electron-osx-sign@^0.4.11:
     minimist "^1.2.0"
     plist "^3.0.1"
 
-electron-packager@^13.0.0:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/electron-packager/-/electron-packager-13.1.1.tgz#04e199786216e009c96d938e0c0092dae5e82129"
-  integrity sha512-3Drgcw8OEOP3Psw/PprloAFJSkSUSQgjUq3AmWffJGB3Kj5WXmZl6A3GOUs8aT7bP/8GWg4oYqSiCSnA5PQkdQ==
+electron-packager@^14.0.0:
+  version "14.0.4"
+  resolved "https://registry.yarnpkg.com/electron-packager/-/electron-packager-14.0.4.tgz#f5e56cc7ef0fc2ec105993040be05ce8993a4f6d"
+  integrity sha512-YTZHPU2PESY86BAmTxJ8VVOvwsE2Tc/NUuBYoo/F8Qj4t4GNGBVy5VfusxEem9g7Fnn0uS9KFN60fn/OlzRaMw==
   dependencies:
-    asar "^1.0.0"
+    "@electron/get" "^1.3.0"
+    asar "^2.0.1"
+    cross-zip "^2.1.5"
     debug "^4.0.1"
-    electron-download "^4.1.1"
-    electron-notarize "^0.0.5"
+    electron-notarize "^0.1.1"
     electron-osx-sign "^0.4.11"
-    extract-zip "^1.0.3"
-    fs-extra "^7.0.0"
+    fs-extra "^8.1.0"
     galactus "^0.2.1"
     get-package-info "^1.0.0"
+    junk "^3.1.0"
     parse-author "^2.0.0"
-    pify "^4.0.0"
     plist "^3.0.0"
-    rcedit "^1.0.0"
+    rcedit "^2.0.0"
     resolve "^1.1.6"
     sanitize-filename "^1.6.0"
-    semver "^5.3.0"
+    semver "^6.0.0"
     yargs-parser "^13.0.0"
 
-electron-rebuild@^1.6.0:
+electron-rebuild@^1.8.5:
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/electron-rebuild/-/electron-rebuild-1.8.5.tgz#d15d0aa7f2151eb3f2935a596a92c0348984ba55"
   integrity sha512-gDwRA3utfiPnFwBZ1z8M4SEMwsdsy6Bg4VGO2ohelMOIO0vxiCrDQ/FVdLk3h2g7fLb06QFUsQU+86jiTSmZxw==
@@ -776,6 +936,13 @@ electron-rebuild@^1.6.0:
     ora "^3.4.0"
     spawn-rx "^3.0.0"
     yargs "^13.2.2"
+
+electron-squirrel-startup@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/electron-squirrel-startup/-/electron-squirrel-startup-1.0.0.tgz#19b4e55933fa0ef8f556784b9c660f772546a0b8"
+  integrity sha1-GbTlWTP6Dvj1VnhLnGYPdyVGoLg=
+  dependencies:
+    debug "^2.2.0"
 
 electron-winstaller@^3.0.4:
   version "3.0.4"
@@ -815,6 +982,11 @@ env-paths@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-1.0.0.tgz#4168133b42bb05c38a35b1ae4397c8298ab369e0"
   integrity sha1-QWgTO0K7BcOKNbGuQ5fIKYqzaeA=
+
+env-paths@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.0.tgz#cdca557dc009152917d6166e2febe1f039685e43"
+  integrity sha512-6u0VYSCo/OW6IoD5WCLLy9JUGARbamfSavcNXry/eu8aHVFei6CD3Sw+VGX5alea1i9pgPHW0mbu6Xj0uBh7gA==
 
 error-ex@^1.2.0:
   version "1.3.2"
@@ -928,6 +1100,14 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+find-up@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
+  integrity sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==
+  dependencies:
+    locate-path "^5.0.0"
+    path-exists "^4.0.0"
+
 flora-colossus@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/flora-colossus/-/flora-colossus-1.0.1.tgz#aba198425a8185341e64f9d2a6a96fd9a3cbdb93"
@@ -965,6 +1145,15 @@ fs-extra@^7.0.0, fs-extra@^7.0.1:
   integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
   dependencies:
     graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
+fs-extra@^8.0.1, fs-extra@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
+  integrity sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==
+  dependencies:
+    graceful-fs "^4.2.0"
     jsonfile "^4.0.0"
     universalify "^0.1.0"
 
@@ -1043,10 +1232,17 @@ get-stdin@^4.0.1:
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
   integrity sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
 
-get-stream@^4.0.0:
+get-stream@^4.0.0, get-stream@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
   integrity sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==
+  dependencies:
+    pump "^3.0.0"
+
+get-stream@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-5.1.0.tgz#01203cdc92597f9b909067c3e656cc1f4d3c4dc9"
+  integrity sha512-EXr1FOzrzTfGeL0gQdeFEvOMm2mzMOglyiOXSTpPC+iAjAKftbr3jpCMWynogwYnM+eSj9sHGc6wjIcDvYiygw==
   dependencies:
     pump "^3.0.0"
 
@@ -1057,14 +1253,14 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-glob-promise@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-3.4.0.tgz#b6b8f084504216f702dc2ce8c9bc9ac8866fdb20"
-  integrity sha512-q08RJ6O+eJn+dVanerAndJwIcumgbDdYiUT7zFQl3Wm1xD6fBKtah7H8ZJChj4wP+8C+QfeVy8xautR7rdmKEw==
+github-url-to-object@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/github-url-to-object/-/github-url-to-object-4.0.4.tgz#a9797b7026e18d53b50b07f45b7e169b55fd90ee"
+  integrity sha512-1Ri1pR8XTfzLpbtPz5MlW/amGNdNReuExPsbF9rxLsBfO1GH9RtDBamhJikd0knMWq3RTTQDbTtw0GGvvEAJEA==
   dependencies:
-    "@types/glob" "*"
+    is-url "^1.1.0"
 
-glob@^7.0.3, glob@^7.1.1, glob@^7.1.3:
+glob@^7.0.3, glob@^7.1.3, glob@^7.1.4:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
@@ -1096,7 +1292,24 @@ global-prefix@^1.0.1:
     is-windows "^1.0.1"
     which "^1.2.14"
 
-graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+got@^9.6.0:
+  version "9.6.0"
+  resolved "https://registry.yarnpkg.com/got/-/got-9.6.0.tgz#edf45e7d67f99545705de1f7bbeeeb121765ed85"
+  integrity sha512-R7eWptXuGYxwijs0eV+v3o6+XH1IqVK8dJOEecQfTmkncw9AV4dcw/Dhxi8MdlqPthxxpZyizMzyg8RTmEsG+Q==
+  dependencies:
+    "@sindresorhus/is" "^0.14.0"
+    "@szmarczak/http-timer" "^1.1.2"
+    cacheable-request "^6.0.0"
+    decompress-response "^3.3.0"
+    duplexer3 "^0.1.4"
+    get-stream "^4.1.0"
+    lowercase-keys "^1.0.1"
+    mimic-response "^1.0.1"
+    p-cancelable "^1.0.0"
+    to-readable-stream "^1.0.0"
+    url-parse-lax "^3.0.0"
+
+graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
   integrity sha512-b9usnbDGnD928gJB3LrCmxoibr3VE4U2SMo5PBuBnokWyDADTqDPXg4YpwKF1trpH+UbGp7QLicO3+aWEy0+mw==
@@ -1135,6 +1348,11 @@ hosted-git-info@^2.1.4:
   version "2.7.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
   integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+
+http-cache-semantics@^4.0.0:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.0.3.tgz#495704773277eeef6e43f9ab2c2c7d259dda25c5"
+  integrity sha512-TcIMG3qeVLgDr1TEd2XvHaTnMPwYQUQMIBLy+5pLSDKYFc7UIqj39w8EGzZkaxoLv/l2K8HaI0t5AVA+YYgUew==
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -1177,7 +1395,7 @@ ini@^1.3.4, ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-inquirer@^6.2.0:
+inquirer@^6.5.0:
   version "6.5.0"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-6.5.0.tgz#2303317efc9a4ea7ec2e2df6f86569b734accf42"
   integrity sha512-scfHejeG/lVZSpvCXpsB4j/wQNPM5JC8kiElOI0OUTwmc1RTpXr4H32/HOlQHcZiYl2z2VElwuCVDRG8vFmbnA==
@@ -1220,15 +1438,17 @@ is-fullwidth-code-point@^2.0.0:
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
   integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
 
+is-plain-object@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.0.tgz#47bfc5da1b5d50d64110806c199359482e75a928"
+  integrity sha512-tZIpofR+P05k8Aocp7UI/2UTa9lTJSebCXpFFoR9aibpokDj/uXBsJ8luUu0tTVYKkMU6URDUuOfJZ7koewXvg==
+  dependencies:
+    isobject "^4.0.0"
+
 is-promise@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-2.1.0.tgz#79a2a9ece7f096e80f36d2b2f3bc16c1ff4bf3fa"
   integrity sha1-eaKp7OfwlugPNtKy87wWwf9L8/o=
-
-is-promise@~1, is-promise@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/is-promise/-/is-promise-1.0.1.tgz#31573761c057e33c2e91aab9e96da08cefbe76e5"
-  integrity sha1-MVc3YcBX4zwukaq56W2gjO++duU=
 
 is-stream@^1.1.0:
   version "1.1.0"
@@ -1239,6 +1459,11 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
   integrity sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+
+is-url@^1.1.0, is-url@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/is-url/-/is-url-1.2.4.tgz#04a4df46d28c4cff3d73d01ff06abeb318a1aa52"
+  integrity sha512-ITvGim8FhRiYe4IQ5uHSkj7pVaPDrCTkNd3yq3cV7iZAcJdHTUMPMEHcqSOy9xZ9qFenQCvi+2wjH9a1nXqHww==
 
 is-utf8@^0.2.0:
   version "0.2.1"
@@ -1277,15 +1502,30 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
+isobject@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-4.0.0.tgz#3f1c9155e73b192022a80819bacd0343711697b0"
+  integrity sha512-S/2fF5wH8SJA/kmwr6HYhK/RI/OkhD84k8ntalo0iJjZikgq1XFvR5M8NPT1x5F7fBwCG3qHfnzeP/Vh/ZxCUA==
+
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+jquery@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+  integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+
+json-buffer@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/json-buffer/-/json-buffer-3.0.0.tgz#5b1f397afc75d677bde8bcfc0e47e1f9a3d9a898"
+  integrity sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=
 
 json-schema-traverse@^0.4.1:
   version "0.4.1"
@@ -1318,6 +1558,18 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
+
+junk@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/junk/-/junk-3.1.0.tgz#31499098d902b7e98c5d9b9c80f43457a88abfa1"
+  integrity sha512-pBxcB3LFc8QVgdggvZWyeys+hnrNWg4OcZIU/1X59k5jQdLBlCsYGRQaz234SqoRLTCgMH00fY0xRJH+F9METQ==
+
+keyv@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-3.1.0.tgz#ecc228486f69991e49e9476485a5be1e8fc5c4d9"
+  integrity sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA==
+  dependencies:
+    json-buffer "3.0.0"
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -1356,6 +1608,13 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+locate-path@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
+  integrity sha512-t7hw9pI+WvuwNJXwk5zVHpyhIqzg2qTlklJOf0mVxGSbe3Fp2VieZcduNYjaLDoy6p9uGpQEGWG87WpMKlNq8g==
+  dependencies:
+    p-locate "^4.1.0"
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -1366,17 +1625,22 @@ lodash.assign@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
   integrity sha1-DZnzzNem0mHRm9rrkkUAXShYCOc=
 
-lodash.get@^4.0.0:
+lodash.get@^4.0.0, lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
   integrity sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=
 
-lodash.merge@^4.6.0:
+lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash.template@^4.2.2, lodash.template@^4.4.0:
+lodash.set@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/lodash.set/-/lodash.set-4.3.2.tgz#d8757b1da807dde24816b0d6a84bea1a76230b23"
+  integrity sha1-2HV7HagH3eJIFrDWqEvqGnYjCyM=
+
+lodash.template@^4.2.2, lodash.template@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.5.0.tgz#f976195cf3f347d0d5f52483569fe8031ccce8ab"
   integrity sha512-84vYFxIkmidUiFxidA/KjjH9pAycqW+h980j7Fuz5qxRtO9pgB7MDFTdys1N7A5mcucRiDyEq4fusljItR1T/A==
@@ -1391,17 +1655,29 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "^3.0.0"
 
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+  integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
+
 lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.4:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
-log-symbols@^2.0.0, log-symbols@^2.2.0:
+log-symbols@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
   integrity sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
   dependencies:
     chalk "^2.0.1"
+
+log-symbols@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-3.0.0.tgz#f3a08516a5dea893336a7dee14d18a1cfdab77c4"
+  integrity sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==
+  dependencies:
+    chalk "^2.4.2"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -1411,6 +1687,16 @@ loud-rejection@^1.0.0:
     currently-unhandled "^0.4.1"
     signal-exit "^3.0.0"
 
+lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
+  integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
+
+lowercase-keys@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-2.0.0.tgz#2603e78b7b4b0006cbca2fbcc8a3202558ac9479"
+  integrity sha512-tqNXrS78oMOE73NMxK4EMLQsQowWf8jKooH9g7xPavRT706R6bkQJ6DY2Te7QukaZsulxa30wQ7bk0pm4XiHmA==
+
 lru-cache@^4.0.1:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -1418,6 +1704,11 @@ lru-cache@^4.0.1:
   dependencies:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
+
+macos-release@^2.2.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
+  integrity sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==
 
 map-age-cleaner@^0.1.1:
   version "0.1.3"
@@ -1431,7 +1722,7 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
   integrity sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=
 
-mem@^4.0.0:
+mem@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/mem/-/mem-4.3.0.tgz#461af497bc4ae09608cdb2e60eefb69bff744178"
   integrity sha512-qX2bG48pTqYRVmDB37rn/6PT7LcR8T7oAX3bf99u1Tt1nzxYfxkgqDwUwolPlXweM0XzBOBFzSx4kfp7KP1s/w==
@@ -1461,7 +1752,7 @@ mime-db@1.40.0:
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.40.0.tgz#a65057e998db090f732a68f6c276d387d4126c32"
   integrity sha512-jYdeOMPy9vnxEqFRRo6ZvTZ8d9oPb+k18PKoYNYUe2stVEBPPwsln/qWzdbmaIvnhZ9v2P+CuecK+fpUfsV2mA==
 
-mime-types@^2.1.12, mime-types@~2.1.19:
+mime-types@^2.1.12, mime-types@^2.1.24, mime-types@~2.1.19:
   version "2.1.24"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.24.tgz#b6f8d0b3e951efb77dedeca194cff6d16f676f81"
   integrity sha512-WaFHS3MCl5fapm3oLxU4eYDw77IQM2ACcxQ9RIxfaC3ooc6PFuBMGZZsYpvoXS5D5QTWPieo1jjLdAm3TBP3cQ==
@@ -1477,6 +1768,11 @@ mimic-fn@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
+
+mimic-response@^1.0.0, mimic-response@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
+  integrity sha512-j5EctnkH7amfV/q5Hgmoal1g2QHFJRraOtmx0JpIqkxhBhI/lJSl1nMpQ45hVarwNETOoWEimndZ4QK0RHxuxQ==
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -1544,7 +1840,7 @@ node-abi@^2.8.0:
   dependencies:
     semver "^5.4.1"
 
-node-fetch@^2.0.0:
+node-fetch@^2.3.0, node-fetch@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
@@ -1566,14 +1862,6 @@ node-gyp@^4.0.0:
     tar "^4.4.8"
     which "1"
 
-nodeify@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/nodeify/-/nodeify-1.0.1.tgz#64ab69a7bdbaf03ce107b4f0335c87c0b9e91b1d"
-  integrity sha1-ZKtpp7268DzhB7TwM1yHwLnpGx0=
-  dependencies:
-    is-promise "~1.0.0"
-    promise "~1.3.0"
-
 "nopt@2 || 3":
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-3.0.6.tgz#c6465dbf08abcd4db359317f79ac68a646b28ff9"
@@ -1590,6 +1878,11 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     resolve "^1.10.0"
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
+
+normalize-url@^4.1.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.3.0.tgz#9c49e10fc1876aeb76dba88bf1b2b5d9fa57b2ee"
+  integrity sha512-0NLtR71o4k6GLP+mr6Ty34c5GA6CMoEsncKJxvQd8NzPxaHRJNnb5gZE8R1XF4CPIS7QPHLJ74IFszwtNVAHVQ==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -1641,6 +1934,11 @@ object-keys@~0.4.0:
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-0.4.0.tgz#28a6aae7428dd2c3a92f3d95f21335dd204e0336"
   integrity sha1-KKaq50KN0sOpLz2V8hM13SBOAzY=
 
+octokit-pagination-methods@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/octokit-pagination-methods/-/octokit-pagination-methods-1.1.0.tgz#cf472edc9d551055f9ef73f6e42b4dbb4c80bea4"
+  integrity sha512-fZ4qZdQ2nxJvtcasX7Ghl+WlWS/d9IgnBIwFZXVNNZUmzpno91SX5bc5vuxiuKoCtK78XxGGNuSCrDC7xYB3OQ==
+
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
@@ -1655,10 +1953,10 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-opn@^5.0.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/opn/-/opn-5.5.0.tgz#fc7164fab56d235904c51c3b27da6758ca3b9bfc"
-  integrity sha512-PqHpggC9bLV0VeWcdKhkpxY+3JTzetLSqTCWL/z/tFIbI6G8JCjondXklT1JinczLz2Xib62sSp0T/gKT4KksA==
+open@^6.4.0:
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
+  integrity sha512-IFenVPgF70fSm1keSd2iDBIDIBZkroLeuffXq+wKTzTJlBpesFWojV9lb8mzOfaAzM1sr7HQHuO0vtV0zYekGg==
   dependencies:
     is-wsl "^1.1.0"
 
@@ -1679,6 +1977,14 @@ os-homedir@^1.0.0:
   resolved "https://registry.yarnpkg.com/os-homedir/-/os-homedir-1.0.2.tgz#ffbc4988336e0e833de0c168c7ef152121aa7fb3"
   integrity sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
 
+os-name@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/os-name/-/os-name-3.1.0.tgz#dec19d966296e1cd62d701a5a66ee1ddeae70801"
+  integrity sha512-h8L+8aNjNcMpo/mAIBPn5PXCM16iyPGjHNWo6U1YO8sJTMHtEtyczI6QJnLoplswm6goopQkqc7OAnjhWcugVg==
+  dependencies:
+    macos-release "^2.2.0"
+    windows-release "^3.1.0"
+
 os-tmpdir@^1.0.0, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
@@ -1691,6 +1997,11 @@ osenv@0:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+p-cancelable@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/p-cancelable/-/p-cancelable-1.1.0.tgz#d078d15a3af409220c886f1d9a0ca2e441ab26cc"
+  integrity sha512-s73XxOZ4zpt1edZYZzvhqFa6uvQc1vwUa0K0BdtIZgQMAJj9IbebH+JkgKZc9h+B05PKHLOTl4ajG1BmNrVZlw==
 
 p-defer@^1.0.0:
   version "1.0.0"
@@ -1714,7 +2025,7 @@ p-limit@^1.1.0:
   dependencies:
     p-try "^1.0.0"
 
-p-limit@^2.0.0:
+p-limit@^2.0.0, p-limit@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/p-limit/-/p-limit-2.2.0.tgz#417c9941e6027a9abcba5092dd2904e255b5fbc2"
   integrity sha512-pZbTJpoUsCzV48Mc9Nh51VbwO0X9cuPFE8gYwx9BTCt9SF8/b7Zljd2fVgOxhIF/HDTKgpVzs+GPhyKfjLLFRQ==
@@ -1734,6 +2045,13 @@ p-locate@^3.0.0:
   integrity sha512-x+12w/To+4GFfgJhBEpiDcLozRJGegY+Ei7/z0tSLkMmxGZNybVMSfWj9aJn8Z5Fc7dBUNJOOVgPv2H7IwulSQ==
   dependencies:
     p-limit "^2.0.0"
+
+p-locate@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/p-locate/-/p-locate-4.1.0.tgz#a3428bb7088b3a60292f66919278b7c297ad4f07"
+  integrity sha512-R79ZZ/0wAxKGu3oYMlz8jy/kbhsNrS7SKZ7PxEHBgJ5+F2mtFW2fK2cOtBh1cHYkQsbzFV7I+EoRKe6Yt0oK7A==
+  dependencies:
+    p-limit "^2.2.0"
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -1759,7 +2077,7 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-parse-ms@^2.0.0:
+parse-ms@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-2.1.0.tgz#348565a753d4391fa524029956b172cb7753097d"
   integrity sha512-kHt7kzLoS9VBZfUsiKjv43mr91ea+U05EyKkEtqp7vNbHxmaVuEqN7XxeEVnGrMtYOAxGrDElSi96K7EgO1zCA==
@@ -1780,6 +2098,11 @@ path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
+
+path-exists@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
+  integrity sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -1827,7 +2150,7 @@ pify@^2.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz#ed141a6ac043a849ea588498e7dca8b15330e90c"
   integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
 
-pify@^4.0.0, pify@^4.0.1:
+pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
@@ -1853,6 +2176,11 @@ plist@^3.0.0, plist@^3.0.1:
     xmlbuilder "^9.0.7"
     xmldom "0.1.x"
 
+prepend-http@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
+  integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
 pretty-bytes@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-1.0.4.tgz#0a22e8210609ad35542f8c8d5d2159aff0751c84"
@@ -1861,12 +2189,12 @@ pretty-bytes@^1.0.2:
     get-stdin "^4.0.1"
     meow "^3.1.0"
 
-pretty-ms@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-4.0.0.tgz#31baf41b94fd02227098aaa03bd62608eb0d6e92"
-  integrity sha512-qG66ahoLCwpLXD09ZPHSCbUWYTqdosB7SMP4OffgTgL2PBKXMuUsrk5Bwg8q4qPkjTXsKBMr+YK3Ltd/6F9s/Q==
+pretty-ms@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pretty-ms/-/pretty-ms-5.0.0.tgz#6133a8f55804b208e4728f6aa7bf01085e951e24"
+  integrity sha512-94VRYjL9k33RzfKiGokPBPpsmloBYSf5Ri+Pq19zlsEcUKFob+admeXr5eFDRuPjFmEOcjJvPGdillYOJyvZ7Q==
   dependencies:
-    parse-ms "^2.0.0"
+    parse-ms "^2.1.0"
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
@@ -1880,13 +2208,6 @@ progress-stream@^1.1.0:
   dependencies:
     speedometer "~0.1.2"
     through2 "~0.2.3"
-
-promise@~1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/promise/-/promise-1.3.0.tgz#e5cc9a4c8278e4664ffedc01c7da84842b040175"
-  integrity sha1-5cyaTIJ45GZP/twBx9qEhCsEAXU=
-  dependencies:
-    is-promise "~1"
 
 pseudomap@^1.0.2:
   version "1.0.2"
@@ -1931,10 +2252,10 @@ rc@^1.2.1:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-rcedit@^1.0.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/rcedit/-/rcedit-1.1.2.tgz#7a28edf981953f75b5f3e5d4cbc1f9ffa0abbc78"
-  integrity sha512-z2ypB4gbINhI6wVe0JJMmdpmOpmNc4g90sE6/6JSuch5kYnjfz9CxvVPqqhShgR6GIkmtW3W2UlfiXhWljA0Fw==
+rcedit@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/rcedit/-/rcedit-2.0.0.tgz#dcc85d93aa91a41c1ebc5c6aa1dfc43ea28b7dad"
+  integrity sha512-XcFGyEBjhWSsud+R8elwQtGBbVkCf7tAiad+nXo5jc6l2rMf46NfGNwjnmBNneBIZDfq+Npf8lwP371JTONfrw==
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -2071,6 +2392,13 @@ resolve@^1.1.6, resolve@^1.10.0:
   dependencies:
     path-parse "^1.0.6"
 
+responselike@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/responselike/-/responselike-1.0.2.tgz#918720ef3b631c5642be068f15ade5a46f4ba1e7"
+  integrity sha1-kYcg7ztjHFZCvgaPFa3lpG9Loec=
+  dependencies:
+    lowercase-keys "^1.0.0"
+
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -2122,12 +2450,12 @@ sanitize-filename@^1.6.0:
   dependencies:
     truncate-utf8-bytes "^1.0.0"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
+"semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha512-Ya52jSX2u7QKghxeoFGpLwCtGlt7j0oY9DYb5apt9nPlJ42ID+ulTXESnt/qAQcoSERyZ5sl3LDIOw0nAn/5DA==
 
-semver@^6.0.0:
+semver@^6.0.0, semver@^6.2.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
@@ -2166,7 +2494,7 @@ single-line-log@^1.1.2:
   dependencies:
     string-width "^1.0.1"
 
-source-map-support@^0.5.4:
+source-map-support@^0.5.12:
   version "0.5.13"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
   integrity sha512-SHSKFHadjVA5oR4PPqhtAVdcBWwRYVd6g6cAXnIbRiIwc2EhPrTuKUBdSLvlEKyIP3GCf89fltvcZiP9MMFA1w==
@@ -2322,10 +2650,10 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-sudo-prompt@^8.0.0:
-  version "8.2.5"
-  resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-8.2.5.tgz#cc5ef3769a134bb94b24a631cc09628d4d53603e"
-  integrity sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==
+sudo-prompt@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/sudo-prompt/-/sudo-prompt-9.0.0.tgz#eebedeee9fcd6f661324e6bb46335e3288e8dc8a"
+  integrity sha512-kUn5fiOk0nhY2oKD9onIkcNCE4Zt85WTsvOfSmqCplmlEvXCcPOmp1npH5YWuf8Bmyy9wLWkIxx+D+8cThBORQ==
 
 sumchecker@^2.0.2:
   version "2.0.2"
@@ -2333,6 +2661,13 @@ sumchecker@^2.0.2:
   integrity sha1-D0LBDl0F2l1C7qPlbDOZo31sWz4=
   dependencies:
     debug "^2.2.0"
+
+sumchecker@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sumchecker/-/sumchecker-3.0.0.tgz#da5457b4605184575c76540e5e99cc777cb8ce4c"
+  integrity sha512-yreseuC/z4iaodVoq07XULEOO9p4jnQazO7mbrnDSvWAU/y2cbyIKs+gWJptfcGu9R+1l27K8Rkj0bfvqnBpgQ==
+  dependencies:
+    debug "^4.1.0"
 
 supports-color@^5.3.0:
   version "5.5.0"
@@ -2392,6 +2727,13 @@ tmp-promise@^1.0.5:
     bluebird "^3.5.0"
     tmp "0.1.0"
 
+tmp-promise@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/tmp-promise/-/tmp-promise-2.0.2.tgz#ee605edb10f100954be5dd8b9dbe1bfd56194202"
+  integrity sha512-zl71nFWjPKW2KXs+73gEk8RmqvtAeXPxhWDkTUoa3MSMkjq3I+9OeknjF178MQoMYsdqL730hfzvNfEkePxq9Q==
+  dependencies:
+    tmp "0.1.0"
+
 tmp@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.1.0.tgz#ee434a4e22543082e294ba6201dcc6eafefa2877"
@@ -2405,6 +2747,11 @@ tmp@^0.0.33:
   integrity sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==
   dependencies:
     os-tmpdir "~1.0.2"
+
+to-readable-stream@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/to-readable-stream/-/to-readable-stream-1.0.0.tgz#ce0aa0c2f3df6adf852efb404a783e77c0475771"
+  integrity sha512-Iq25XBt6zD5npPhlLVXGFN3/gyR2/qODcKNNyTMd4vbm39HUaOiAM4PMq0eMVC/Tkxz+Zjdsc55g9yyz+Yq00Q==
 
 tough-cookie@~2.4.3:
   version "2.4.3"
@@ -2448,10 +2795,27 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+universal-user-agent@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/universal-user-agent/-/universal-user-agent-3.0.0.tgz#4cc88d68097bffd7ac42e3b7c903e7481424b4b9"
+  integrity sha512-T3siHThqoj5X0benA5H0qcDnrKGXzU8TKoX15x/tQHw1hQBvIEBHjxQ2klizYsqBOO/Q+WuxoQUihadeeqDnoA==
+  dependencies:
+    os-name "^3.0.0"
+
 universalify@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
   integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+
+update-electron-app@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/update-electron-app/-/update-electron-app-1.5.0.tgz#492cb904db07a0b28dbd83fb52e0fe500bbe3463"
+  integrity sha512-g7noW9JfQ8Hwq6zw9lmZei+R/ikOIBcaZ04TbmIcU5zNfv23HkN80QLLAyiR/47KvfS4sjnh2/wuDq5nh8+0mQ==
+  dependencies:
+    electron-is-dev "^0.3.0"
+    github-url-to-object "^4.0.4"
+    is-url "^1.2.4"
+    ms "^2.1.1"
 
 uri-js@^4.2.2:
   version "4.2.2"
@@ -2460,13 +2824,25 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-username@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/username/-/username-4.1.0.tgz#640f2ae13d17c51e7fb1d3517ad7c17fcd5d1670"
-  integrity sha512-sKh1KCsMfv8jPIC9VdeQhrNAgkl842jS/M74HQv7Byr0AMAwKZt8mLWX9DmtMeD8nQA3eKa10f5LbqlSVmokMg==
+url-parse-lax@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/url-parse-lax/-/url-parse-lax-3.0.0.tgz#16b5cafc07dbe3676c1b1999177823d6503acb0c"
+  integrity sha1-FrXK/Afb42dsGxmZF3gj1lA6yww=
+  dependencies:
+    prepend-http "^2.0.0"
+
+url-template@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/url-template/-/url-template-2.0.8.tgz#fc565a3cccbff7730c775f5641f9555791439f21"
+  integrity sha1-/FZaPMy/93MMd19WQflVV5FDnyE=
+
+username@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/username/-/username-5.1.0.tgz#a7f9325adce2d0166448cdd55d4985b1360f2508"
+  integrity sha512-PCKbdWw85JsYMvmCv5GH3kXmM66rCd9m1hBEDutPNv94b/pqCMT4NtcKyeWYvLFiE8b+ha1Jdl8XAaUdPn5QTg==
   dependencies:
     execa "^1.0.0"
-    mem "^4.0.0"
+    mem "^4.3.0"
 
 utf8-byte-length@^1.0.1:
   version "1.0.4"
@@ -2525,6 +2901,13 @@ wide-align@^1.1.0:
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+windows-release@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/windows-release/-/windows-release-3.2.0.tgz#8122dad5afc303d833422380680a79cdfa91785f"
+  integrity sha512-QTlz2hKLrdqukrsapKsINzqMgOUpQW268eJ0OaOpJN32h272waxR9fkB9VoWRtK7uKHG5EHJcTXQBD8XZVJkFA==
+  dependencies:
+    execa "^1.0.0"
 
 word-wrap@^1.2.3:
   version "1.2.3"
