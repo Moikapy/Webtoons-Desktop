@@ -4,9 +4,9 @@
   "description": "My Unofficial Webtoons Desktop Client",
   "keywords": [],
   "main": "./main.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Moikapy",
-  "repository":"https://github.com/Moikapy/Webtoons-Desktop",
+  "repository": "https://github.com/Moikapy/Webtoons-Desktop",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
